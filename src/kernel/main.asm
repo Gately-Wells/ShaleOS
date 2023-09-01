@@ -58,7 +58,7 @@ main:
 	jmp .halt
 
 
-boot_message: db  'Hello billy!', ENDL, 0
+boot_message: db  'Test', ENDL, 0
 
 
 times 510-($-$$) db 0
